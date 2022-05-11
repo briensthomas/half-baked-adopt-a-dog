@@ -8,7 +8,7 @@ export async function getDogs() {
     const response = await client.from('dogs').select('*');
     // and return the response
     console.log(response);
-    return response;    
+    return response.data;    
 }
 
 export async function getDog(id) {

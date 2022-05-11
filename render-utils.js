@@ -49,5 +49,4 @@ export function renderDogDetail(dog) {
     div.append(nameEl, img, ageAndBreedEl, descriptionEl);
 
     return div;
-
 }
